@@ -62,7 +62,7 @@ static CGFloat const kFloatingLabelHideAnimationDuration = 0.3f;
 	
     // some basic default fonts/colors
     _floatingLabelReductionRatio = 70;
-    _floatingLabelFont = [self defaultFloatingLabelFont];
+    _floatingLabelFont = _floatingLabelFont = [UIFont fontWithName:@"Montserrat" size:14];
     _floatingLabel.font = _floatingLabelFont;
     _floatingLabelTextColor = [UIColor grayColor];
     _floatingLabel.textColor = _floatingLabelTextColor;
